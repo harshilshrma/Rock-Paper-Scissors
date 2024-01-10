@@ -3,7 +3,12 @@
 * {
     padding: 0;
     margin: 0;
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #AFFC41;
 }
 
 .heading-text {
@@ -21,7 +26,7 @@
     height: 200px;
     border: 2px solid rgb(0, 0, 0);
     border-radius: 50%;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.3s ease-in-out;
 }
 
 
@@ -38,6 +43,6 @@
 }
 
 .imgs:not(:hover) {
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.6s ease-in-out;
     scale: (1);
 }
