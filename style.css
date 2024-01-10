@@ -8,34 +8,36 @@
 
 .heading-text {
     text-align: center;
-    margin: 0px 0px 18px 0px;
+    margin: 0px 0px 38px 0px;
     padding: 12px;
     font-size: 52px;
     height: 5rem;
-    background-color: #0D3B66;
+    background-color: #086375;
     color: #ffffff;
     font-weight: 550;
 }
-
-/* .rockImg {
-
-} */
 
 .imgs {
     height: 200px;
     border: 2px solid rgb(0, 0, 0);
     border-radius: 50%;
-
-    
-    
+    transition: transform 0.5s ease-in-out;
 }
 
 
 .choices {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    margin: 0px 257px;
-    
-    
+    justify-content: center;
+    gap: 4rem;
+}
+
+.imgs:hover {
+    cursor: pointer;
+    transform: scale(1.2) rotate(360deg);
+}
+
+.imgs:not(:hover) {
+    transition: transform 0.5s ease-in-out;
+    scale: (1);
 }
