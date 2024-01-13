@@ -63,9 +63,15 @@ body{
     font-size: 4rem;
 }
 
-#msg{
+.msg-container{
     margin-top: 5rem;
+}
+
+#msg{
+    display: inline;
     background-color:#000000;
     color: white;
     font-size: 2rem;
+    padding: 1rem;
+    border-radius: 1.5rem;
 }

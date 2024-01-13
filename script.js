@@ -1,3 +1,12 @@
-const button = document.querySelector("button");
+document.addEventListener("DOMContentLoaded", function () {
+    var hoverSound = document.getElementById("hoverSound");
 
-button.addEventListener()
+    var icons = document.querySelectorAll(".imgs");
+
+    icons.forEach(function (icon) {
+        icon.addEventListener("mouseover", function () {
+            hoverSound.play();
+
+        });
+    });
+});
