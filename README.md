@@ -11,6 +11,10 @@ Welcome to my Rock, Paper, Scissors Game! This project is a dynamic blend of HTM
 
 <br>
 
+<em>Note: This project is not currently optimized for smaller devices, but stay tuned for updates!</em>
+
+<br>
+
 # Technologies Used
 
 <p>
