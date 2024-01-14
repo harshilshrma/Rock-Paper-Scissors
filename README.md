@@ -49,14 +49,15 @@ The game has the following features:
 
 Key takeaways from this project:
 
+
 <ul>
-    <li><strong>JavaScript Proficiency:</strong> Significantly improved my JavaScript skills, particularly in handling events, manipulating the DOM, and implementing game logic.</li>
-    <li><strong>Event Handling:</strong> Deepened my understanding of event listeners and their role in creating responsive and interactive web applications.</li>
-    <li><strong>Dynamic Content Manipulation:</strong> Explored techniques for dynamically updating content on the page based on user interactions and game outcomes.</li>
-    <li><strong>Randomization in JavaScript:</strong> Gained practical experience in using JavaScript to generate random computer choices, a crucial element in creating an engaging game.</li>
-    <li><strong>Scoring System:</strong> Implemented a scoring system to keep track of user and computer scores, enhancing my skills in managing data within a web application.</li>
-    <li><strong>Conditional Statements:</strong> Applied advanced conditional statements for determining game outcomes, adding complexity and depth to the project.</li>
-    <li><strong>Styling Interactivity:</strong> Integrated CSS styling to create an aesthetically pleasing and interactive user interface, complementing the game experience.</li>
+    <li><strong>JavaScript Mastery:</strong> Enhanced skills in event handling, DOM manipulation, and game logic implementation.</li>
+    <li><strong>Event Listeners:</strong> Deepened understanding of their role in creating responsive and interactive web applications.</li>
+    <li><strong>Dynamic Content Updates:</strong> Explored techniques for dynamic content changes based on user interactions and game outcomes.</li>
+    <li><strong>Randomization:</strong> Applied practical experience in using JavaScript for generating random computer choices, a crucial element for an engaging game.</li>
+    <li><strong>Scoring System:</strong> Successfully implemented a scoring system to track user and computer scores, enhancing data management skills.</li>
+    <li><strong>Advanced Conditionals:</strong> Applied complex conditional statements for determining game outcomes, adding depth to the project.</li>
+    <li><strong>Stylish Interactivity:</strong> Integrated CSS styling for an aesthetically pleasing and interactive user interface, enhancing the overall gaming experience.</li>
 </ul>
 
 <br>
