@@ -4,9 +4,8 @@ document.addEventListener("DOMContentLoaded", function () {
     var icons = document.querySelectorAll(".imgs");
 
     icons.forEach(function (icon) {
-        icon.addEventListener("mouseover", function () {
+        icon.addEventListener("click", function () {
             hoverSound.play();
-
         });
     });
 });
@@ -15,6 +14,9 @@ let userScore = 0;
 let compScore = 0;
 
 const choices = document.querySelectorAll(".imgs");
+const msg = document.querySelector("#msg");
+const userScorePara = document.querySelector("#user-score");
+const compScorePara = document.querySelector("#comp-score");
 
 const generateCompChoice = () => {
     // One of rock, paper and scissors
@@ -24,14 +26,28 @@ const generateCompChoice = () => {
 }
 
 const drawGame = () => {
-    console.log("DRAW");
+    msg.innerText = "It's a Draw! Play again.";
+    msg.style.backgroundColor = "#000000";
+
+}
+
+const showWinner = (userWin, userChoice, compChoice) => {
+    if (userWin) {
+        userScore++;
+        userScorePara.innerText = userScore;
+        msg.innerText = `You Win! Your ${userChoice} beats ${compChoice}.`;
+        msg.style.backgroundColor = "#136F63";
+    } else {
+        compScore++;
+        compScorePara.innerText = compScore;
+        msg.innerText = `You Lost! ${compChoice} beats your ${userChoice}`;
+        msg.style.backgroundColor = "#D00000";
+    }
 }
 
 const playGame = (userChoice) => {
-    console.log("user choice is = ", userChoice);
     // To generate computer's choice
     const compChoice = generateCompChoice();
-    console.log("comp choice is = ", compChoice);
 
     if (userChoice === compChoice) {
         // Draw Game
@@ -48,6 +64,7 @@ const playGame = (userChoice) => {
             // comp shd be rock or paper
             userWin = compChoice === "rock" ? false : true;
         }
+        showWinner(userWin, userChoice, compChoice);
     }
 }
 
